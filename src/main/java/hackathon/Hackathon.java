@@ -1,5 +1,6 @@
 package hackathon;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +20,7 @@ public class Hackathon
     }
 
     @Test
-    public void Test1()
+    public void Test11()
     {
         driver.get("https://www.homecentre.in/in/en/");
         driver.findElement(By.xpath("//*[@id='dept-living room']/a/span/span/div")).click();
