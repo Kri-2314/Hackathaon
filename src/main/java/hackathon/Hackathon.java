@@ -19,7 +19,7 @@ public class Hackathon
     }
 
     @Test
-    public void Test11()
+    public void Test12()
     {
         driver.get("https://www.homecentre.in/in/en/");
         driver.findElement(By.xpath("//*[@id='dept-living room']/a/span/span/div")).click();
