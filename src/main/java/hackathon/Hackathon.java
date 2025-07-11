@@ -30,9 +30,9 @@ public class Hackathon
         driver.findElement(By.xpath("//*[@id=\"filter-div\"]/div[2]/div[1]/div[2]/div/div[3]/button")).click();
     }
 
-//    @AfterClass
-//    public void quit()
-//    {
-//        driver.quit();
-//    }
+    @AfterClass
+    public void quit()
+    {
+        driver.quit();
+    }
 }
